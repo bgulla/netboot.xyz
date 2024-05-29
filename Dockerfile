@@ -1,6 +1,6 @@
 ARG NBXYZ_OVERRIDES=default
 
-FROM ghcr.io/netbootxyz/builder:latest as builder
+FROM builder as builder
 
 # repo for build
 COPY . /ansible
