@@ -3,6 +3,7 @@
 # overrides defaults in netbootxyz role
 generate_menus: true
 generate_disks: true
+generate_disks_arm64: true
 generate_checksums: true
 generate_local_vars: true
 make_num_jobs: 1
